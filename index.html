@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREDDY THE KILLER</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+            background: black;
+        }
+        #usernameInput {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="usernameInput">
+        <input type="text" id="username" placeholder="Enter your username">
+        <button onclick="startGame()">Set Username</button>
+    </div>
+    <canvas id="gameCanvas" width="700" height="500"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
